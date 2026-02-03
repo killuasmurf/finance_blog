@@ -1,4 +1,4 @@
-# Day 1: ETFs vs. Mutual Funds
+## Day 1: ETFs vs. Mutual Funds
 **Date:** Feb 03, 2026
 
 ## The Concept
@@ -24,20 +24,3 @@ If I invest $10,000 for 30 years at 8% growth:
 * **With Fund (1.50% fee):** Result is ~$66,000
 
 *That is a $34,000 difference just from a small percentage change!*
-
-## Python Proof
-Here is the script I used to calculate the difference:
-
-```python
-principal = 10000
-rate = 0.08
-years = 30
-
-# Calculate specific impact
-val_etf = principal * (1 + rate - 0.0003)**years
-val_fund = principal * (1 + rate - 0.015)**years
-
-print(f"ETF Result: ${val_etf:.2f}")
-print(f"Fund Result: ${val_fund:.2f}")
-print(f"Difference: ${val_etf - val_fund:.2f}")
-
