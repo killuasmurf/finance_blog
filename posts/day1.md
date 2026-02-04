@@ -24,3 +24,4 @@ If I invest $10,000 for 30 years at 8% growth:
 * **With Fund (1.50% fee):** Result is ~$66,000
 
 *That is a $34,000 difference just from a small percentage change!*
+If I want to invest long-term, ETF would definitely be a more attractive choice.
